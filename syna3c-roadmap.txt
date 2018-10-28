@@ -1,0 +1,85 @@
+Syna3C Roadmap
+
+This document outlines development priorities for the first several releases of the Syna3C platform.
+
+v 0.1 Initial alpha release
+	* Sign up
+	* Log in
+	* List of events
+	* Event details
+
+v 0.11
+	* User roles
+		* Administrators
+		* Organizers
+		* Moderators
+		* Volunteers
+		* General User
+	* Event creation
+	* Event deletion
+	* Resource types
+		* Transport
+		* Lodging/Shelter
+		* Food
+		* Medical
+		* Clothing
+		* Labor
+		* Other
+	* Coordination posts
+		* Request
+		* Offer
+	* Coordination responses
+		* Text
+		* Photos
+		* Check-ins (sent to organizers)
+
+v 0.12
+	* User badges (awards)
+	* User flags (warnings)
+	* Move events, posts, and responses
+	* Edit events, posts and responses
+	* Delete posts and responses
+	* Expiration of events
+	* Notify of activity via email
+	* Abuse report system
+	* User to user blocking
+	* User banning
+	* Social media sharing of events & posts
+
+v 0.13+
+	* Ability for admins to customize event and coordination post forms
+	* Event categories
+	* Programatic incident creation upon major disasters to ease event organization
+	* Post labels
+		* Fulfilled/Pending/Unfulfilled
+		* Urgent
+		* Alert
+		* Warning
+		* Life-threatening need
+	* Mapping with routing
+	* Search by location/event
+		* Resource needed/wanted
+		* Organizers can search by area, volunteers (skills, proximity, etc.)
+	* Expanded check in functions
+		* Send GPS coordinates with photo(s) and text to organizers
+		* Organizers can send out mass alerts to volunteers via SMS
+	* Organizer "portal"/dashboard
+		* Aggregate total resources needed/offered (Can be toggled for public visibility)
+		* Stream of recent activity
+		* Notification of posts marked Urgent, Life-threatening, etc.
+	* Moderator portal/dashboard
+		* Notification of reported posts and responses
+	* User profiles
+		* verified skills/certifications
+		* Display badges and flags
+		* specific location (accessed programmatically for organizers, not revealed publicly)
+		* Contact information and permissions
+	* Tagging/categorization of posts
+	* Users can "follow" an event, post or organizer
+	* Abuse appeal system
+
+***** Nice to haves *****
+* Integrate Rabbit MQ messaging system
+* Integrate NLP for identifying related events and posts
+* SMS API (Twillio)
+* Integration with the Serval Project for communications when infrastructure is compromised or inaccessible?
